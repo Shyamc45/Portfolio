@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .header {
+    text-align: center;
+    background: linear-gradient(135deg, #4facfe, #e2f417);
+    color: white;
+    padding: 2rem 0;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .navbar {
+    background: #333;
+    padding: 0.5rem 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 1rem;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #fbfb1a;
+  }
+  .section {
+    padding: 2rem 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #ad08ee;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .skills-list span {
+    background: #4facfe;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-list span:hover {
+    transform: scale(1.1);
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  .project-card {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    border-color: #4facfe;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+              
